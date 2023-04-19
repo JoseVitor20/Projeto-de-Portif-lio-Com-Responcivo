@@ -1,0 +1,24 @@
+html, body{height: 100%;}
+
+*{margin: 0px;}
+
+.box{width: 100%;
+	margin:0 auto;
+	background: blue;
+	text-align: center;
+}
+
+.item{background: blue;
+	color:white;
+	display:inline-block;
+	margin:0 20px;
+}
+
+img{width:400px;
+	height:400px;
+
+}
+
+
+	
+

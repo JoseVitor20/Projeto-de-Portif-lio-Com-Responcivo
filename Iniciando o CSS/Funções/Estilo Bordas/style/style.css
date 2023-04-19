@@ -1,0 +1,39 @@
+body{background-color: white;}
+
+html, body{height: 100%;}
+
+*{margin: 0; padding:0;}
+
+
+
+.center{box-sizing: border-box;
+		width: 1280px;
+		margin: 0 auto;
+		background-color:blue;
+		color:white;
+		
+}
+
+.Artigo{width:100%;
+		display: inline-block;
+		vertical-align: text-top;
+		margin-right: -4px;
+		margin-top:30px;
+		/*
+		border-right-style:outset;
+		border-width:10px;
+		border-color:rgb(255,0,0);
+		*/
+		width: 640px;
+		box-sizing: border-box;
+		border: 5px solid;
+		border-color:rgba(255,255,255,1);
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom:30px;
+
+
+
+
+
+}

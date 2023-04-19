@@ -1,0 +1,25 @@
+body{background-color: white;}
+
+html, body{height: 100%;}
+
+.box{color:green;
+	font-size: 30px;
+	width: 400px;
+	height: 400px;
+	background: gray;
+	font-weight: bold;
+}
+
+.box2{background: red;
+		width: 250px;
+}
+
+.box  .box  span{display:inline-block;
+				width: inherit;
+				height: initial;
+				background: red;
+}
+
+/*Inherit significa Erdar ou seja, ela ira erdar o formato da div pai.*/
+
+/* Initial significa Inicial ou seja, ela ira formatar de acordo com o formato do navegador.*/

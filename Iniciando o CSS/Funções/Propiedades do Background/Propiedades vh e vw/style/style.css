@@ -1,0 +1,14 @@
+*{margin: 0; height: 0}
+
+html, body{height: 100%;}
+
+body{background-color: blue;}
+
+.bg{width: 100%;/*100vw*/
+	height:60vh;/*60vw*/
+	background-image: url('../Imagens/Imagem1.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+

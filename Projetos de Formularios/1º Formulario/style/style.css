@@ -1,0 +1,130 @@
+body{background: blue;}
+
+html, body{height: 100%;}
+
+*{margin: 0; padding: 0;}
+
+
+form{width: 95%;
+	max-width: 750px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+fieldset{border: 5px double white;
+	background: rgb(109, 7, 186);
+	height: 2050px;
+	margin: 40px 0;
+}
+/*1º FORMULARIO*/
+legend{background: rgb(109, 7, 186);
+	color:white;
+	font-size:50px;
+	font-family: fantasy, cursive;
+	font-weight: normal;
+	letter-spacing: 1px;
+	border:5px double white;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+/*Complete*/
+input[type=text], input[type=password] {width: 500px;
+	height: 40px;
+	margin: 20px 0;
+	font-weight: bold;
+	outline:0;
+	cursor: pointer;
+}
+
+form select{width: 500px;
+	height: 40px;
+	cursor: pointer;
+}
+/*INSIRA SUAS INFORMAÇÕES ABAIXO !*/
+h1{color:rgb(109, 7, 186);
+	background:turquoise;
+	font-family: fantasy, cursive;
+	font-weight: normal;
+	padding: 10px;
+	margin: 20px 0;
+	cursor: pointer;
+}
+/*EM QUAL CIDADE VOÇÊ MORA ? */
+.text1{color:rgb(109, 7, 186);
+	background:turquoise;
+	font-family: fantasy, cursive;
+	font-weight: normal;
+	padding: 10px;
+	margin-top: 70px;
+	cursor: pointer;
+}
+
+.Cidade{display: inline-block;
+	text-align: justify;
+	font-weight: normal;
+	font-family: fantasy,cursive;
+	font-size: 25px;
+	color:white;
+	cursor: pointer;
+}
+
+.Cidade span{margin-left: 10px;
+}
+
+.veiculos{display: inline-block;
+	text-align: justify;
+	font-weight: normal;
+	font-family: fantasy,cursive;
+	font-size: 25px;
+	color:white;
+	margin-right:30px;
+	cursor: pointer;
+}
+
+.veiculos span{margin-left: 10px;
+}
+
+.civil{display: inline-block;
+	text-align: justify;
+	color:white;
+	font-family: fantasy, cursive;
+	font-size:25px;
+	font-weight: normal;
+	margin-right: -20px;
+	cursor: pointer;
+}
+
+.civil span{margin-left:10px;
+}
+
+.trabalho{display: inline-block;
+	text-align: justify;
+	font-size: 25px;
+	font-family: fantasy, cursive;
+	font-weight: normal;
+	color:white;
+	margin-right: -115px;
+	margin-bottom: 30px;
+	cursor: pointer;
+	
+}
+
+.trabalho spam{margin-left:10px;}
+
+textarea{resize: none;
+	width: 500px;
+	height: 200px;
+	font-family:tahoma;
+	font-size:18px;
+	cursor: pointer;
+}
+
+input[type=button] {color: white;
+	border: 5px solid white;
+	background: blue;
+	margin: 20px 200px;
+	padding: 15px 20px;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+}

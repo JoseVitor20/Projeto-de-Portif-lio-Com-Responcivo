@@ -1,0 +1,108 @@
+	*{margin: 0;padding: 0;}
+
+html, body{height:100%;}
+
+form{width: 96%;
+	max-width: 600px;
+	margin:0 auto;
+	text-align: center;
+}
+
+form fieldset{padding: 20px 40px;
+	border:3px dashed blue;
+}
+
+form legend{font-size: 50px;
+	padding: 20px 20px;
+	color:red;
+}
+
+input[type=password]{display: inline-block;
+	margin-top:30px;
+	width:80%;
+	padding: 10px 13px;
+}
+
+input[type=text]{display: inline-block;
+	margin-top:30px;
+	width:80%;
+	padding: 10px 13px;
+}
+
+form input[type=text]:focus, form select:focus, form textarea:focus{outline: 0;
+
+}
+
+form select{width:calc(80% + 26px);
+		height: 40px;
+		margin-top: 30px;
+		color:blue;
+		padding:10px 13px;
+		display: inline-block;
+		font-weight: bold;
+		font-family: tahoma;}
+		
+form select option:nth-of-type(3) {color: red;}
+
+form select option[disabled]{background: gold;}
+
+form h2{margin-top: 20px;
+		color: blue;
+}
+
+
+.input1{display: inline-block;
+		margin-top: 20px;
+		margin-left: -20px;
+		text-align: left;	
+		font-size: 20px;
+		font-family: tahoma;
+		color:red;
+}
+
+.input2{	display: inline-block;
+		margin-top: 20px;
+		margin-left: -20px;
+		text-align: left;	
+		font-size: 20px;
+		font-family: tahoma;
+		color:red;
+}
+
+.input1 span{text-align: left;
+		font-size: 16px;
+		margin-left: 13px;
+		font-family: tahoma;
+}
+
+.input2 span{text-align: left;
+		font-size: 16px;
+		margin-left: 15px;
+		font-family: tahoma;
+
+}
+
+form .input3[type=checkbox]{margin-left: -35px;}
+
+form input[type=button]{background: transparent;
+		margin-top: 30px;
+		border:2px solid blue;
+		color:red;
+		background:gray;
+		font-size: 20px;
+		padding:10px 20px;
+		font-weight: bold;
+		cursor:pointer;
+
+}
+
+form textarea{	margin-top:30px;
+	width:80%;
+	font-size: 20px;
+	font-family: tahoma;
+	height: 100px;
+	padding: 10px 13px;
+	resize: none;
+	border: 2px solid blue;
+}
+

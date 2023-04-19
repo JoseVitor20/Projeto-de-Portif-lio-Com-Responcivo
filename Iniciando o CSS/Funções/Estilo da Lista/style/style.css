@@ -1,0 +1,7 @@
+*{margin: 0; padding: 0;}
+html body{background-color: gray;}
+
+ul{list-style-position:inside;
+	list-style-type:decimal-leading-zero;
+
+}

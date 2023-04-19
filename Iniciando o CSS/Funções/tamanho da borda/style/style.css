@@ -1,0 +1,11 @@
+body{background-color: white;}
+
+html, body{height: 100%;}
+
+*{margin: 0; padding:0;}
+
+p{	display: inline-block;
+	width: 30px;
+	height: 100px;
+	background: red;
+}

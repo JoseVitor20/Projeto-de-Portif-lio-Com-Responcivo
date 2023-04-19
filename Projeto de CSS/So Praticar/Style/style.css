@@ -1,0 +1,52 @@
+body{background-color: gray}
+*{margin: 0; padding:0;box-sizing: border-box;}
+head{height: 100%;}
+
+@font-face{font-family: "Fonte";
+src:url('../Fontes/TitanOne-Regular.ttf');}
+
+@font-face{font-family:"Fonte2";
+src:url('../Fontes/AlfaSlabOne-Regular.ttf');}
+
+.orange{background-color: rgb(255, 119, 0);
+width: 100%;
+padding: 20px 0;
+margin:auto
+}
+
+div {display: inline-block;}
+
+.um{display: inline-block;
+text-align: justify;
+margin-right: -4px;
+width: 440px;
+height:700px;
+margin:0 20px;}
+
+span{font-family: Fonte;
+position:relative;
+left:130px;
+font-weight: bold;
+font-size: 25px;
+padding: 10px 20px;
+position: relative;
+background-color: rgb(255, 234, 0);
+top:20px;
+bottom: 100px;
+border-radius: 30px;
+color:rgb(9, 9, 9);
+border:4px double black;}
+
+span:hover{cursor: pointer;
+background-color: rgb(216, 200, 27);
+text-decoration: underline;}
+
+p{font-size: 15px;
+font-family:Fonte2;
+position: relative;
+top:50px;}
+
+img{border-radius: 30px;}
+
+img:hover{opacity: 0.9;
+border:15px solid rgba(110, 63, 9,0.4);}

@@ -1,0 +1,13 @@
+*{margin: 0;padding:0;box-sizing: border-box;}
+
+html, body{height: 100%;}
+
+.box{width: 33.33%;
+height:300px;
+border:1px solid black;
+background:gold;
+float: left;}
+
+@media screen and (max-width:768px) and (max-height:500px){
+    .box{width:100%;}
+}

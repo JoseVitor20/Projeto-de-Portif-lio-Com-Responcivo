@@ -1,0 +1,36 @@
+body{background:  ;}
+
+
+*{margin: 0; padding: 0;}
+
+/* Opção 1º
+p{font-family: 'Roboto Condensed', sem serifa;}*/
+
+
+/* Opção 2º
+
+@font-face{font-family:"Fonte1";
+	src:url('../Fontes/AlfaSlabOne-Regular.ttf')}
+
+html,body{height: 100%;
+	font-family:Fonte1 ;
+}
+
+form *{font-family: Fonte1;}*/
+
+/*Fim da Opção 2º*/
+
+/*Inportando do Propio css as fontes*/
+
+/*.box p{font-family:Fonte1;
+	font-size: 120px;
+	font-weight: 400;
+	color: white;*/
+}
+
+/*!inportant ira prevalecer mesmo quando tiver uma classe com um nivel de especificação maior*/
+/*.text{font-family:sans-serif  !important}*/
+
+/*O sinal * serve para que possamos
+selecionar todas as opçãoes que 
+estegem com o mesmo nome*/

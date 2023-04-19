@@ -1,0 +1,39 @@
+body{background-color:gray;}
+
+*{margin: 0;
+	padding: 0;
+}
+
+/*Estilo para o meu site
+*/
+html,body{height: 100%}
+
+
+.Um{background:red;
+	width:500px;
+	height:500px;
+	margin: 70px auto;
+	padding:50px 50px;
+}
+.Um > .Dois{background:blue;
+			width:300px;
+			height:300px;
+			margin: 60px auto;
+			padding: 25px 25px;
+}
+
+.Um > .Dois> .Tres{background: green;
+					width:200px;
+					height: 200px;
+					margin: 50px auto;
+					padding:15px 15px;
+}
+
+.Um > .Dois > .Tres > .Quatro{background: black;
+								width:90px;
+								height: 90px;
+								margin:30px 30px;
+								padding: 20px 20px;
+
+
+		}

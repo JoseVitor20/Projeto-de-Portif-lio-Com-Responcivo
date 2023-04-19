@@ -1,0 +1,23 @@
+body{background-color: blue;}
+
+html, body{height: 100%;}
+
+
+.pai{width: 1280px;
+	padding: 20px 20px;
+	background: blue;
+	margin: 20px auto;}
+
+/*A função "Float" é usado quando tiver varias divs e quiser prganizar-las em uma ordem especifica.*/
+
+.child{box-sizing: border-box;
+		width: 640px;
+		height: 300px;
+		background: red;
+		padding: 0 auto;
+		border: 1px solid black;
+		float:left;
+		text-align: center;
+		font-size: 50px;
+		color: white;
+		font-family: fantasy,cursive;}

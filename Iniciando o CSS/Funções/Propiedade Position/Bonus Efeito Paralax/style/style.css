@@ -1,0 +1,27 @@
+html, body{height: 100%;}
+
+*{margin: 0px;}
+
+.box{background: blue;
+	width: 100%;
+}
+
+.item{background: blue;
+	width: 30%;
+	color:white;
+	display:inline-block;
+	margin: 10px 20px;
+}
+
+.item img{width: 100%;
+}	
+
+p{display:inline-block;
+	text-align: center;
+}
+
+h3{display: inline-block;
+	text-align: center;
+}
+
+

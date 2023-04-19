@@ -1,0 +1,282 @@
+*{margin: 0; padding:0; box-sizing:border-box;}
+
+html, body{height: 100%;}
+
+@font-face{font-family:"Fonte1";
+src:url('../Fontes/AlfaSlabOne-Regular.ttf');}
+
+@font-face{font-family:"Fonte2";
+src:url('../Fontes/FiraSans-Medium.ttf')}
+
+@font-face{font-family:"Fonte3";
+    src:url('../Fontes/PermanentMarker-Regular.ttf')}
+
+    @font-face{font-family:"Fonte4";
+        src:url('../Fontes/TitanOne-Regular.ttf')}
+
+.parent{display:flex;}
+
+.sidebar{width: 20%;
+    float: initial;
+    padding-right: 150px;
+    height: 745px;
+    position: fixed;
+    background-color: rgb(4, 69, 104);}
+
+.sidebar-pos{position:absolute;
+    top:50%;
+    transform: translateY(-50%);}
+
+.img-sidebar img{max-width: 80%;
+    width: 80%;
+    height: 20%;
+    min-height: 100px;
+    border-radius: 50%;
+    border: 7px solid rgb(0, 128, 255);}
+
+.img-sidebar {text-align: center;}
+
+.img-sidebar span{display: none;}
+
+.menu{
+    margin: 20px 0;
+    text-align: center;
+    position:relative;}
+
+.menu a {color:rgb(246, 245, 245);
+    font-family:Fonte2;
+    font-size:19px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;}
+
+.menu a:hover {color:white;
+    background-image: repeating-radial-gradient(rgb(4, 4, 62),rgb(10, 134, 179));
+    border-radius: 20px;}
+
+.content{
+    float: right;
+    height: 100%;
+    overflow-y: auto;
+    padding-left: 25%;}
+
+.descricao{position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: justify;
+    width: 70%;}
+
+.icons-social img{width: 40px;
+    line-height: 20px;}
+
+.icons-social a{text-decoration: none;
+    color:white;
+    background-color: gray;
+    border-radius: 100%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin:0 20px;
+    text-align: center;}
+
+.descricao h2{color:rgb(53, 77, 238);
+    font-size: 60px;
+    font-family: Fonte2;
+    text-align: center;
+    margin-bottom: 50px;}
+
+.descricao h2::after{content:"Vitor";
+    color: rgb(37, 8, 99);}
+
+.descricao h3{color:rgb(37, 8, 99);
+    font-family: Fonte2;
+    font-size: 25px;
+    word-spacing: 10px;
+    }
+
+.descricao p{margin-top: 50px;
+    margin-bottom:40px;
+    font-size: 18px;}
+
+.span0::after{content: 'NAME@EMAIL.COM';
+    color:rgb(53, 77, 238);}
+
+@media screen and (max-width:780px){
+    .sidebar{width: 100%;
+        padding-right: 150px;
+        height: 200px;
+        position: fixed;
+        background-color: rgb(4, 69, 104);}
+    
+    .sidebar-pos{display: block}
+    
+    .img-sidebar img{width: 120px;
+        margin-left: 30px;
+        margin-top: 40px;
+        height: 120px;
+        border-radius: 50%;
+        border: 7px solid rgb(0, 128, 255);}
+
+    .img-sidebar span{display: initial;
+        color:rgb(53, 77, 238);
+        font-size:60px;
+        font-weight: bold;
+        font-family: Fonte2;
+        vertical-align: 40px;
+        margin-left: 30px;}
+            
+    .img-sidebar span::after{content:'Vitor';
+        color:rgb(37, 8, 99);
+        font-size:60px;
+        font-weight: bold;
+        font-family: Fonte2;}
+
+    
+    .img-sidebar {text-align: left;}
+    
+    .menu{
+        margin: 20px 35px;
+        text-align: left;
+        position:relative;}
+    
+    .menu a {color:rgb(252, 248, 248);
+        font-family:Fonte2;
+        font-size:16px;
+        text-decoration: none;
+        display:inline-block;
+        margin-right: 20px;
+        position:relative;}
+    
+    .menu a:hover {color:white;
+        background-image: repeating-radial-gradient(rgb(4, 4, 62),rgb(10, 134, 179));
+        border-radius: 20px;}
+    
+    .content{float: right;
+        height: 100%;}
+    
+    .descricao{position:absolute;
+        top:70%;
+        left:10%;
+        width: 80%;
+        text-align: justify;}
+    
+    .icons-social img{width: 40px;
+        line-height: 20px;}
+    
+    .icons-social a{text-decoration: none;
+        color:white;
+        background-color: gray;
+        border-radius: 100%;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        margin:0 20px;
+        text-align: center;}
+    
+    .descricao h2{display: none;}
+    
+    .descricao h2::after{display: none;}
+    
+    .descricao h3{color:rgb(37, 8, 99);
+        font-family: Fonte2;
+        font-size: 25px;
+        word-spacing: 10px;
+        }
+    
+    .descricao p{margin-top: 80px;
+        margin-bottom:40px;
+        font-size: 18px;}
+    
+    .span0::after{content: 'NAME@EMAIL.COM';
+        color:rgb(53, 77, 238);}
+}
+
+@media screen and (max-width:614px){
+    .sidebar{width: 100%;
+        padding-right: 150px;
+        height: 250px;
+        position: fixed;
+        background-color: rgb(4, 69, 104);}
+    
+    .sidebar-pos{display: block}
+    
+    .img-sidebar img{width: 120px;
+        margin-left: 30px;
+        margin-top: 40px;
+        height: 120px;
+        border-radius: 50%;
+        border: 7px solid rgb(0, 128, 255);}
+
+    .img-sidebar span{display: initial;
+        color:rgb(53, 77, 238);
+        font-size:50px;
+        font-weight: bold;
+        font-family: Fonte2;
+        vertical-align: 40px;
+        margin-left: 30px;}
+            
+    .img-sidebar span::after{content:'Vitor';
+        color:rgb(37, 8, 99);
+        font-size:px;
+        font-weight: bold;
+        font-family: Fonte2;}
+
+    
+    .img-sidebar {text-align: left;}
+    
+    .menu{
+        margin: 20px 35px;
+        text-align: left;
+        position:relative;}
+    
+    .menu a {color:rgb(252, 248, 248);
+        font-family:Fonte2;
+        font-size:16px;
+        text-decoration: none;
+        display:inline-block;
+        margin-right: 20px;
+        position:relative;}
+    
+    .menu a:hover {color:white;
+        background-image: repeating-radial-gradient(rgb(4, 4, 62),rgb(10, 134, 179));
+        border-radius: 20px;}
+    
+    .content{float: right;
+        height: 100%;}
+    
+    .descricao{position:absolute;
+        top:68%;
+        left:10%;
+        width: 80%;
+        text-align: justify;}
+    
+    .icons-social img{width: 40px;
+        line-height: 20px;}
+    
+    .icons-social a{text-decoration: none;
+        color:white;
+        background-color: gray;
+        border-radius: 100%;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        margin:0 20px;
+        text-align: center;}
+    
+    .descricao h2{display: none;}
+    
+    .descricao h2::after{display: none;}
+    
+    .descricao h3{color:rgb(37, 8, 99);
+        font-family: Fonte2;
+        font-size: 25px;
+        word-spacing: 10px;
+        }
+    
+    .descricao p{margin-top: 40px;
+        margin-bottom:20px;
+        font-size: 18px;}
+    
+    .span0::after{content: 'NAME@EMAIL.COM';
+        color:rgb(53, 77, 238);}
+}

@@ -1,0 +1,89 @@
+*{margin: 0; padding: 0;}
+html body{background-color: gray;}
+/*
+ul{list-style-position:inside;
+	list-style-type:decimal-leading-zero;
+}
+*/
+
+/*De acordo com a sequencia da lista, mesmo stando fora da lista.
+
+ul li:nth-of-type(5){color: red;
+}
+
+*/
+
+/*De acordo com os filhos de mesmo nome, mesmo estando fora de ordem
+
+ul span:nth-child(8){color:blue;}
+
+*/
+
+/*
+
+.box div{width: 100%;
+	box-sizing: border-box;
+	float:left;
+	width: 33.3%;
+	height: 400px;
+	background: red;
+	border: 5px solid black;
+}
+
+*/
+
+/* " Not" Usamos para especificar qual não se deve formatar.
+
+.box div:not(.Um){background-color: orange;}
+
+*/
+
+/*
+
+.box div:last-of-type p{color: white;}
+
+*/
+
+/*
+
+.item{box-sizing: border-box;
+	float:left;
+	width: 33.3%;
+	height: 400px;
+	background: red;
+	border: 5px solid black;
+}
+
+*/
+
+/* "First ou Last" Selecionamos apenas o primeiro elemento ou o ultimo.
+
+
+.box div:first-of-type,.box p{background-color: blue;}
+
+.box p:last-of-type{background-color: green;}
+
+*/
+
+/* "Empty" Esta função irá buscar por elementos vazios para fazer a formatação.
+
+p:empty{width: 100px;
+	height:100px;
+	background: blue;
+}
+
+*/
+
+/* " After ou Before" Usamos para introduzir um texto personalizado
+
+.p::after{content:' José Vitor';
+	color: white;
+	background: blue;
+}
+
+.p::before{content: 'Olá, ';
+	color: white;
+	background: green;
+}
+
+*/

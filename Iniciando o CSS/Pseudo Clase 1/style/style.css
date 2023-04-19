@@ -1,0 +1,53 @@
+*{margin: 0;padding: 0;}
+
+body{background-color: gray;}
+
+html body{height: 100%;}
+
+/*
+.teste0,.teste1,.teste2{width: 300px;
+		height: 30px;
+		display: inline-block;
+		/*background:#ccc;
+		margin-top: 30px;
+		margin-left: 30px;
+*/
+
+}
+/* Inicio "Hover" Só ativa quando passa o mause por cim.
+
+.teste0:hover{background-color: red;
+		
+}
+
+.teste1{background-color: rgb(98,98,98);
+}
+
+.teste2{background-color: rgb(50, 50, 50);
+}
+
+.teste0,.teste1,.teste2:hover{vertical-align: top;
+}
+
+Fim "Hover" */
+
+/* Inicio "Active" Só ativa quando pressiono
+
+.teste0:active{background-color: black;
+}
+
+Final Active*/
+
+/*Inicio "Focus" É usado para estilizar um formulario.
+
+.teste0;focus{background-color: green;
+}
+
+.textarea{display: inline-block;
+	width: 600px;
+	height: 400px;
+	background-color: yellow;
+}
+
+Fim"Focus"*/
+

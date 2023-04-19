@@ -1,0 +1,52 @@
+body{background-color: white;}
+
+html, body{height: 100%;}
+
+
+ "TEM ESCRITO IGUAL!"
+
+a[href*="google"]{background:
+ green;
+}
+
+a[href*="dankicode"]{background:
+ green;
+}
+
+/*
+	NÃO PRECISSA SER ESCRITO 
+	CORRETAMENTE, MAIS TEM QUE
+	AVER ESPAÇOS!
+
+a[attr~="google"]{background: green;}
+
+[attr~="yahoo"]{background: green;}
+
+*/
+
+/*
+QUANDO A PRIMEIRA PALAVRA VEM 
+COM UM SINAL DE MENOS.
+
+a[attr|="google"]{background: red;}
+
+*/
+
+/*
+QUANDO COMEÇAMOS COM PALAVRA! 
+
+a[attr^="goo"]{background: blue;}
+
+*/
+
+/*
+QUANDO TERMINA COM UMA PALAVRA 
+ESPECIFICA!
+
+a[attr$="yahoo"]{background:black;}
+
+*/
+
+input[type=text]{background-color: green;}
+
+input[type=button]{background-color: gray;}
